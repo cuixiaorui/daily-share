@@ -1,6 +1,6 @@
 # Daily Share
 
- 每日分享一些行业内有趣、有用，最新的信息
+ 每日分享有趣、有用，最新的信息 FOR EVERY CODER
  
  ## VS 技术周刊
  
