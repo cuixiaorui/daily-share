@@ -1,15 +1,15 @@
-on:
-  schedule:
-    - cron:  '1 16 * * *'  
+# on:
+#   schedule:
+#     - cron:  '1 16 * * *'  
 
-jobs:
-  create_daily_plan_issue:
-    runs-on: ubuntu-latest
-    name: create daily share issue
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: create daily share issue action step
-        uses: cuixiaorui/create-daily-share-issue-action@main
-        with:
-          token: ${{secrets.TOKEN}}
+# jobs:
+#   create_daily_plan_issue:
+#     runs-on: ubuntu-latest
+#     name: create daily share issue
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v2
+#       - name: create daily share issue action step
+#         uses: cuixiaorui/create-daily-share-issue-action@main
+#         with:
+#           token: ${{secrets.TOKEN}}
